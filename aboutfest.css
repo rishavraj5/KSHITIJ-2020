@@ -1,0 +1,88 @@
+body{
+	background-image: url('back2.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.tm-container{
+	max-width: 1500px;
+	margin: 0 auto; 
+}
+.tm-header{
+	background: linear-gradient(to right, green, yellow, orange);
+}
+.tm-header::after{
+	content: " ";
+	clear: both;
+	display: block;
+
+}
+.tm-nav ul li{
+	display: inline-block;
+}
+.tm-nav ul li a{
+	font-size: 200%;
+	line-height: 100px;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: rgb(30,30,30);
+	float: right;
+	font-family: helvetica;
+}
+.tm-logo{
+	float: left;
+}
+.tm-nav ul li a:hover{
+	color: blue;
+	font-family: Courier New;
+}
+.interests{
+	float: right;
+}
+.codepic{
+	width: 800px;
+	height: 500;
+}
+#one{
+	font-weight: bold;
+	width: 650px;
+	height: 500px;
+	left: 800px;
+	top: 250px;
+	position: absolute;
+	padding-left: 10px;
+	background: linear-gradient(to top, violet, indigo, blue, green, yellow, orange, red);
+	font-size: 150%;
+	font-family: algerian;
+	color: black;
+	padding-bottom: 20px;
+}
+#one:hover{
+	color: rgb(211, 83, 14);
+	background: rgba(142, 45, 183, 0.3);
+}
+#dif{
+	font-size: 200%;
+	font-weight: bold;
+	color: white;
+	padding-left: 30%;
+	text-shadow: 1px 1px 2px black;
+}
+#two{
+	width: 600px;
+	height: 600px;
+	left: 50px;
+	top: 200px;
+	position: absolute;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 5px;
+}
+.foot{
+	text-align: center;
+	background: red;
+	padding: 15px; 
+	left: 650px;
+	top: 850px;
+	position: absolute;
+}

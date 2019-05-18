@@ -1,0 +1,70 @@
+.tm-container{
+	max-width: 1500px;
+	margin: 0 auto; 
+}
+.tm-header{
+	background: radial-gradient(red, yellow);
+}
+.tm-header::after{
+	content: " ";
+	clear: both;
+	display: block;
+}
+.tm-nav ul li{
+	display: inline-block;
+}
+.tm-nav ul li a{
+	font-size: 200%;
+	line-height: 100px;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: rgb(30,30,30);
+	float: right;
+	font-family: helvetica;
+}
+.tm-logo{
+	float: left;
+}
+.tm-nav ul li a:hover{
+	color: blue;
+	font-family: Courier New;
+}
+body{
+	background-image: url('back1.jpg');
+	background-attachment: fixed;
+	border-image-repeat: no-repeat;
+}
+.style{
+	background-color: rgb(162, 165, 72, 0.5);
+	border-color: rgb(87, 10, 175,0.6);
+	font-family: algerian;
+	font-size: 150%;
+	color: white;
+	border-style: solid;
+	border-color: violet;
+	border-width: 5px;
+	width: 300px;
+	height: 300px;
+	padding: 100px;
+	top: 200px;
+	left: 500px;
+	position: absolute;
+}
+.style:hover{
+	background-color: rgb(52, 226, 101);
+	border-color: rgb(87, 10, 175,0.6);
+	font-family: Lucida Console;
+}
+#ktj{
+	text-align: center;
+	font-size: 200%;
+	text-shadow: 1px 1px 2px black;
+}
+.foot{
+	text-align: center;
+	background: red;
+	padding: 15px; 
+	left: 650px;
+	top: 100%;
+	position: absolute;
+}
